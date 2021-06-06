@@ -1,8 +1,8 @@
 applications:
  - name: vue-tutorial
-     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-     path: ./dist
-     random-route: true
-     memory: 256M
-     env:
-     FORCE_HTTPS: true
+   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+   path: ./dist
+   random-route: true
+   memory: 256M
+   env:
+   FORCE_HTTPS: true
