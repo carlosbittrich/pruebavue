@@ -1,6 +1,7 @@
 applications:
  - name: vue-tutorial
      path: ./dist
+     name: pruebavue
      buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
      random-route: true
      memory: 256M
